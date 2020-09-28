@@ -1,8 +1,9 @@
-const button = document.getElementById("myButton");
-const welcomeMessage = document.getElementById("welcomeMessage");
+const button = document.getElementById("add_text");
+const output = document.getElementById("output");
+const input = document.getElementById("input");
 
 function welcome (){
-    welcomeMessage.innerHTML = "Välkommen!"
+    output.innerHTML = input.value;
 }
 
 button.addEventListener("click", welcome);
