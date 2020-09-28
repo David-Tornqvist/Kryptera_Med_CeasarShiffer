@@ -7,3 +7,4 @@ function welcome (){
 }
 
 button.addEventListener("click", welcome);
+
